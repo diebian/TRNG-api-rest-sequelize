@@ -1,0 +1,36 @@
+{
+  "name": "trng-api-rest-sequelize",
+  "version": "1.0.0",
+  "description": "Sequelize",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node",
+    "start": "node dist/index.js",
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmz3010/TRNG-api-rest-sequelize.git"
+  },
+  "author": "Diego Mamani Zanca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmz3010/TRNG-api-rest-sequelize/issues"
+  },
+  "homepage": "https://github.com/dmz3010/TRNG-api-rest-sequelize#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.17.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1"
+  }
+}
