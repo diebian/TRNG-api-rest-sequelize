@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { createBrand } from '../controllers/brands.controller'
+import { createBrand } from '../controllers/brands.ctrl'
 
 const router = Router();
 

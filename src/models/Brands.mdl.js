@@ -1,7 +1,7 @@
 import Sequelize from 'sequelize'
 import { sequelize } from '../database/database'
 
-import Heroes from './Heroes'
+import Heroes from './Heroes.mdl'
 
 const Brands = sequelize.define('brands', {
     id: {

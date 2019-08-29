@@ -2,8 +2,8 @@ import express, { json } from 'express'
 import morgan from 'morgan'
 
 // imports routes
-import brandRoutes from './routes/brands';
-import heroeRoutes from './routes/heroes';
+import brandRoutes from './routes/brands.rt';
+import heroeRoutes from './routes/heroes.rt';
 
 const app = express();
 

@@ -1,4 +1,4 @@
-import Brands from '../models/Brands'
+import Brands from '../models/Brands.mdl'
 
 export async function createBrand(req, res) { 
     const { name, priority, description, premiere } = req.body;
